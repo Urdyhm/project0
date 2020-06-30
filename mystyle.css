@@ -1,6 +1,9 @@
-    body {  
-         background-image: url("C:/Users/Sebastian/Downloads/project0/tools-wallpapers.jpg");
-         font-family:"Lato", sans-serif;
+    
+    
+    body { 
+       background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/02/21/627654/b4226a1a77c3184a4eb721cad4a855c3.jpg"); 
+       background-size: cover;
+       font-family:"Lato", sans-serif;
          align-content: center;
          }
 
@@ -40,6 +43,7 @@
                      background-color: rgb(186, 105, 0);
                      margin-left: auto;
                      margin-right: auto;
+                     padding: 30px;
                    }
            
              .container:hover .overlay {
@@ -70,6 +74,7 @@
                     border: none;
                     cursor: pointer;
                     text-align: center;
+                    margin-top: 5px;
                   }
 
               a:link {
