@@ -3,89 +3,60 @@
     body { 
        background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/02/21/627654/b4226a1a77c3184a4eb721cad4a855c3.jpg"); 
        background-size: cover;
-       font-family:"Lato", sans-serif;
-         align-content: center;
+       background-repeat: no-repeat;
+       font-family: Cambria;
+       align-content: center;
          }
 
     h2   {
-           color:red;
+           color:rgb(255, 255, 255);
            text-align: center;
+           padding: 40px;
               }
     p    { 
-           color: salmon;
+           color: rgb(228, 228, 228);
            font-family: Cambria;
-           text-align: center  
+           text-align: justify;  
           }
    img {
-       height: 250px;
-        width: 350px;
+       height: 200px;
+        width: 310px;
         display: block;
+        margin: auto;
         border-radius: 25%;
-        margin-left: auto;
-        margin-right: auto;
         }
+   
 
-   @media (min-width: 200px) {
               .container {
-                max-width: 400px;
-              }
-              .overlay {
-                     position: absolute;
-                     top: 0;
-                     bottom: 0;
-                     left: 0;
-                     right: 0;
-                     height: 100%;
-                     width: 78%;
-                     opacity: 0;
-                     border-radius: 25%;
-                     transition: .6s ease;
-                     background-color: rgb(186, 105, 0);
-                     margin-left: auto;
-                     margin-right: auto;
-                     padding: 30px;
-                   }
-           
-             .container:hover .overlay {
-                     opacity: 1;
-                   }
-                   
-              .text {
-                     color: white;
-                     font-size: 20px;
-                     position: absolute;
-                     top: 50%;
-                     left: 50%;
-                     -webkit-transform: translate(-50%, -50%);
-                     -ms-transform: translate(-50%, -50%);
-                     transform: translate(-50%, -50%);
-                     text-align: center;
-                     margin-left: auto;
-                     margin-right: auto;
-                   }
-             .btn {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    -ms-transform: translate(-50%, -50%);
-                    font-size: 20px;
-                    padding: 16px 30px;
-                    border: none;
-                    cursor: pointer;
-                    text-align: center;
-                    margin-top: 5px;
-                  }
+                         padding: 10px;
+                         align-content: center;
+                        
+                        }
+                        
 
-              a:link {
-                    color: white;
-                    background-color: transparent;
-                    text-decoration: none;
-                  }
-                  
-             a:visited {
-                    color:red;
-                    background-color: transparent;
-                    text-decoration: none;
-             }
-            }
+              .text {
+                     color: rgb(255, 255, 255);
+                     font-size: 20px;
+                     position: relative;
+                     text-align: center;
+                     }
+              
+               a:hover {
+                background-color: snow;
+                
+               }
+
+               a:link {
+                      color: rgb(25, 0, 252);
+                      background-color: transparent;
+                      text-decoration: none;
+                    }
+              
+               a:visited {
+                         font-size: 20px;
+                         position: relative;
+                         color:rgb(131, 4, 4);
+                         background-color: transparent;
+                         text-decoration: none;
+                         }
+                        
